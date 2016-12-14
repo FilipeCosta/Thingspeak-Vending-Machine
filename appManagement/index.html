@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="../app.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../slider/css/slider.css">
+    <script src="../slider/js/bootstrap-slider.js"></script>
+    <script src="appManagement.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel panel-default Stock">
+            <div class="panel-heading clearfix">
+                <div>
+                    Controlo de stock
+                    <div class="pull-right form-group">
+                    </div>
+                    <div class="pull-right">
+                        <a href="#Avisos"><img src="../warning.png" alt="" width="20" height="20" class="warningImg"></a>
+                    </div>
+                    <div class="pull-right">
+                        <h4 id="numberWarnings">1</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="panel-body">
+                <img src="../gears.svg" alt="" class="gears center-block">
+                <div class="containerProducts">
+                    <div class="row">
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeIceTea"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeCroissant"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeKitKat"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeKinderBueno"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeWatter"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeBubbleGums"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                        <div class="col-md-3 SeccaoProduto">
+                            <p class="productName"></p>
+                            <p>Quantidade Atual: <span class="quantidadeProduto"></span></p>
+                            <p id="quantidadeCheaps"></p>
+                            <a href="#" class="editar">editar</a>
+                            <a href="#" id="eliminar">eliminar</a>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="form-horizontal" id="formularioEdicao">
+                    <a href="#" id="PageBack"><span class="glyphicon glyphicon-arrow-left"></span></a>
+                    <div class="form-group">
+                        <label for="" class="control-label col-md-2">Produto </label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="EditarNomeProduto">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="control-label col-md-2">Quantidade</label>
+                        <div class="col-md-8">
+                            <input type="range" class="sliderProducts">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button class="btn btn-default" id="GuardarEdicao">Guardar</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+                             <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <div>
+                    Avisos ao utilizador
+                </div>
+            </div>
+                <div id="Avisos">
+                    
+                    
+                </div>   
+            </div>
+
+            </div>
+            </div>
+</body>
+
+</html>

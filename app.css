@@ -1,0 +1,57 @@
+.row,#preencherStock,.Stock{
+    margin-top: 80px;
+}
+
+#eliminar{
+    color:red;
+}
+
+.editar{
+    color: orange;
+}
+
+.containerProducts{
+    display:none;
+}
+
+.gears{
+    position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+}
+
+
+.glyphicon-arrow-left{
+    font-size: 1.6em;
+}
+
+.panel-body{
+    min-height:400px;
+    height:400px;
+}
+
+.warningImg{
+    margin-right:20px;
+    margin-top:10px;
+}
+
+#numberWarnings{
+    margin-top:13px;
+    margin-right:8px;
+}
+
+.warnings{
+    margin-top:80px;
+}
+
+.alert{
+    width:60%;
+    margin-top: 40px;
+}
+
+
+
+
